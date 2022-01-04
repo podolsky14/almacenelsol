@@ -1,0 +1,187 @@
+
+
+.image-background{
+    height: 400px;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+
+.letra-image-background{
+   color: white;
+   font-family: 'Vujahday Script', cursive;
+   font-size:28px;
+   display: flex;
+   justify-content: center;
+   padding-top: 180px;
+}
+
+.sociales li{
+  display: inline-block;
+}
+
+.formulario{
+  display: flex;
+height: 700px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+
+.formulario input{
+border: black solid 3px;
+width: 30%
+}
+
+.formulario textarea{
+  border: black solid 3px;
+  width: 40%
+  }
+
+  .formulario button{
+    background-color: blue;
+    color: white;
+    width: 12%;
+    } 
+
+    
+    .fuentesol{
+      font-family: 'Rancho', cursive;
+      color: goldenrod
+    }
+
+
+    .completaelform{
+      font-size: 45px 
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES */
+@media (max-width: 692px) {
+    .headerlayout {
+      display: flex ;
+      flex-direction: column;
+      align-items: center;
+  
+  }}
+
+  @media (max-width: 500px) {
+    .letraheader {
+        font-size: 18px;
+        padding-top: 20px;  
+  } 
+}
+
+  @media (min-width: 482px) {
+    .frase {
+       font-size: 3em;
+  
+  }}
+
+  @media (min-width: 728px) {
+    .frase {
+       font-size: 4em;
+  
+  }}
+
+  @media (min-width: 956px) {
+    .frase {
+       font-size: 6em;
+  
+  }}
+
+  @media (max-width: 991px) {
+    .layoutcabecera {
+       padding-top: 20px !important;
+  
+  }}
+
+  
+  @media (max-width: 560px) {
+    .h3iconos {
+       font-size: 30px !important;
+  
+  }}
+
+  @media (max-width: 560px) {
+    .piconos {
+       font-size: 20px !important;
+  
+  }}
+
+  @media (max-width: 600px) {
+    .footerHome {
+       display: flex;
+       flex-direction: column !important;
+       align-items: center;
+  
+  }}
+
+  @media (max-width: 650px) {
+  .formulario input{
+    border: black solid 3px;
+    width: 60%
+    }
+    
+    .formulario textarea{
+      border: black solid 3px;
+      width: 80%
+      }
+    
+      .formulario button{
+        background-color: blue;
+        color: white;
+        width: 20%
+        } 
+
+        .formulario button p{
+         font-size: 18px !important;
+         padding-top: 13px !important
+          } 
+    
+      }
+
+
+      @media (max-width: 600px) {
+      .completaelform {
+        font-size: 25px !important;
+      }}
+
+      @media (max-width: 331px) {
+        .completaelform {
+          font-size: 20px !important;
+        }}
+
+        @media (max-width: 384px) {
+        .letra-image-background{
+          color: white;
+          font-family: 'Vujahday Script', cursive;
+          font-size:20px;
+          display: flex;
+          justify-content: center;
+          padding-top: 180px;
+       }
+       .formulario button{
+        background-color: blue;
+        color: white;
+        width: 30%
+        } 
+      
+      }
